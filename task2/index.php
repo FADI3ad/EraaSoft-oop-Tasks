@@ -3,12 +3,12 @@
 
 class Product
 {
-    public $name;
-    public $price;
+    protected $name;
+    protected $price;
 
-    public $description;
+    protected $description;
 
-    public $image;
+    protected $image;
 
 
     function __construct($name, $price, $description)
