@@ -1,0 +1,4 @@
+Autoloading->
+in PHP is a mechanism that automatically loads class, interface, and trait definitions only when they are needed, eliminating the need for manual require or include statements for every file.
+This results in cleaner code, easier maintenance, and improved performance through lazy loading. 
+The modern and recommended approach for autoloading in PHP is using Composer and the PSR-4 standard. 

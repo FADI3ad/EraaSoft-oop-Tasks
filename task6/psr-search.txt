@@ -1,0 +1,12 @@
+PSR->
+In PHP, PSR stands for PHP Standards Recommendation.
+These are a set of common guidelines and specifications developed by the PHP Framework Interoperability Group (PHP-FIG) to promote consistency, interoperability, and readability across different PHP projects, libraries, and frameworks. 
+Adhering to PSRs helps reduce "cognitive friction" when developers work on various projects, as the code follows a shared set of rules and expectations. 
+--------------------------------------------------------------------------------------------------------------------------------------
+Key PSR Standards
+While there are many PSRs, some of the most widely adopted and important ones include:
+PSR-1: Basic Coding Standard Defines the fundamental rules for PHP code, such as using <?php tags, UTF-8 encoding without BOM, StudlyCaps for class names, and camelCase for method names.
+PSR-4: Autoloader Standard Specifies a standard for autoloading classes from file paths using namespaces. This allows consistent and automatic loading of classes without manual require or include statements.
+PSR-12: Extended Coding Style This is an extension and replacement of the older PSR-2 standard. It provides a comprehensive set of detailed style rules, including indentation (4 spaces, no tabs), line length soft limits, and rules for control structures, aiming for a consistent code format across projects.
+PSR-3: Logger Interface Defines a common interface for logging libraries, allowing developers to swap different logging implementations easily without modifying application code.
+PSR-7: HTTP Message Interface Provides standard interfaces for representing HTTP requests and responses, enabling different libraries to handle HTTP messaging in a standardized way. 

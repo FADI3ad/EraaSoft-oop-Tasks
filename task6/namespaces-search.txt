@@ -1,0 +1,15 @@
+PHP Namespaces->
+PHP namespaces are used to prevent naming conflicts between classes, interfaces, functions, and constants.
+Namespaces are used to group related code together under a name - to avoid naming conflicts when your code grows, or when you use code from multiple sources.
+
+Why Use Namespaces?
+1-To avoid name conflicts, especially in larger projects
+2-To organize code into logical groups
+3-To separate your code from code in libraries
+4-To allow the same name to be used for more than one class, without conflict
+
+Using Namespaces
+Any code that follows a namespace declaration is operating inside the namespace,
+so classes that belong to the namespace can be instantiated without any qualifiers.
+To access classes from outside a namespace, the class needs to have the namespace attached to it.
+

@@ -1,0 +1,24 @@
+Composer->
+What is composer ?
+Composer is the standard tool for PHP dependency management.
+It is designed to simplify how projects bring in and manage external libraries.
+Rather than manually downloading code, unpacking it, and ensuring all the right versions are installed, Composer automates this process and keeps everything consistent across environments.
+Understanding the fundamentals of Composer gives you increased control over your project. 
+After all, using Composer for PHP dependency management removes the guesswork, allowing you to work more efficiently, avoid configuration drift, and ensure your PHP applications remain stable.
+---------------------------------------------------------------
+What Does Composer Do?
+At its core, Composer manages three key tasks: resolving and installing dependencies, autoloading, and security scanning.
+
+1-Resolving and Installing Dependencies 
+Composer fetches the libraries your project requires and places them in a vendor/ directory. If a library has additional dependencies, Composer also fetches and installs those, ensuring that if any given dependency is required by multiple libraries, versions retain compatibility. 
+The tooling will inform you of dependency conflicts, allowing you to resolve them in order to get a viable installation.
+The primary location it searches for dependencies is packagist.org, where any library author can register their library for installation. However, you can create your own Composer repositories from which to pull dependencies, point to third-party repositories, and even point to source code repositories from which to pull code directly.
+
+2-Autoloading
+Composer generates an autoloader file so your application can instantly use the installed packages without extra configuration. While class-based autoloading is baked into PHP, Composer has support for a number of different autoloading strategies, as well as a way for packages to specify files to always load – which enables function and constant autoloading as well.
+
+3-Security Scanning
+Composer consults a number of security lists to identify software versions affected by vulnerabilities.
+When installing a version that has vulnerabilities reported against it, it will report this information; you can also invoke it in a way such that it fails if any libraries have security issues for the resolved versions.
+This means developers don’t need to worry about hunting down every underlying requirement, or tracking security lists for each. If you need a logging library, for example, Composer not only installs it but also installs anything that library depends on, and notifies you if doing so would install an insecure version.
+
