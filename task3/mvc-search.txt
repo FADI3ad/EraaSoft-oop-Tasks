@@ -1,0 +1,21 @@
+MVC (Model-View-Controller)->
+is a software architectural pattern that divides applications into three interconnected components—Model (data),
+View (UI), and Controller (logic)—to separate business logic from user interface. It enhances scalability and maintainability,
+widely used in web frameworks and GUI development.
+--------------------------------------------------------------
+Key Components of mvc->
+Model (Data Layer): Manages the application's data, rules, and logic. It directly manages the data, logic, and rules of the application.
+View (Presentation Layer): Displays data to the user (e.g., HTML, GUI) and sends user actions to the Controller.
+Controller (Input Layer): Acts as an interface between Model and View, processing user requests, manipulating the Model, and updating the View. 
+--------------------------------------------------------------------
+Workflow->
+Request: User interacts with the View (e.g., clicks a button), sending a request to the Controller.
+Logic: The Controller receives the request and, if necessary, updates the Model.
+Data: The Model processes the data and notifies the View (or the Controller updates the View).
+Display: The View renders the updated data for the user. 
+-------------------------------------------------------------
+Benefits
+Separation of Concerns: Clearly separates business logic, UI, and input logic, leading to cleaner, more manageable code.
+Parallel Development: Different teams can work on the Model, View, and Controller simultaneously.
+Reusability: Enables using the same model with different views.
+Testability: Facilitates testing of components independently.
